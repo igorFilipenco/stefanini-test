@@ -67,20 +67,14 @@ UserName should be unique,  dot'n forget about validation
 
 
 Show All Users - by running this command:
-
-
 java -jar myaplication.jar -showAllUsers
 
 
 Add a task to the user - by running this command:
-
-
 java -jar myaplication.jar -addTask -un='userName' -tt='Task Title' -td='Task Description'
 
 
 Show user's tasks - by running this command:
-
-
 java -jar myaplication.jar -showTasks -un='userName'
 
 
@@ -89,9 +83,9 @@ java -jar myaplication.jar -showTasks -un='userName'
 _**Enhanced Task Manager**_
 Add additional functionality to the application that you'll have   created:
 
-Add one more logical functionality (e. g. task assigned to a group of users
-Use an Automated Build Tool (Maven/Gradle)
-Use Database instead of storing data in a file
-Cover your code with JUnit tests
+- Add one more logical functionality (e. g. task assigned to a group of users)
+- Use an Automated Build Tool (Maven/Gradle)
+- Use Database instead of storing data in a file
+- Cover your code with JUnit tests
 
 
