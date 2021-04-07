@@ -2,24 +2,28 @@
 
 Here you can find necessary information about done tasks.
 
-Task 1
+**Task 1**
+
 You can launch it after cloning prject via your IDE.
 After launching write necessary data in console, according to exercise 1 description
 
-Task 2
+**Task 2**
+
 Here, before launching you should go to TaskManagerRepositoryImpl class and specify path to file and its filename(here application will save data) in FILE_PATH variable
 example: "/home/user/projects/file"
 After that you can pack programm to the jar file and work with him, or you can it directly from IDEA.
 go Run-Edit Configurations and in Program arguments you can specify necessary comand, described in exercise 2
 After that compile program.
 
-Task 3
+**Task 3**
+
 Here was used PostgreSQL for storage, Hibernate to work with it and Junit4 for tests
 First you have to install postgreSql and to create your database
 After that go to file src/main/resources/hibernate.cfg.xml and add database connection params:
   - connection.url = your database url like "jdbc:postgresql://172.18.0.2:5432/stefanini"
   - connection.username = your db username
   - connection.password = your db password
+  
 Compile src/test/java/com/stefanini/test3/utils/HibernateUtilTest, during this hibernate will create necessary tables
 As it was in exercise 2 you can launch app via Program arguments in Edit Configurations using comands like:
 - createUser -fn='fn_test' -ln='ln_test' -un='un_test'

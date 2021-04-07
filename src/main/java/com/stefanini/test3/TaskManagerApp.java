@@ -8,13 +8,6 @@ import com.stefanini.test3.service.UserServiceImpl;
 import static com.stefanini.test3.utils.ParamsExtractor.*;
 
 
-//-createUser -fn='fn_test' -ln='ln_test' -un='un_test'
-//-showAllUsers
-//-addTask -un='un_test' -tt='Tas Title' -td='Task Description'
-//-showTasks -un='un_test'
-//-showAllTasks
-//-completeTask -un='un_test' -tt='Tas Title'
-
 public class TaskManagerApp {
     public static final TaskService taskService = new TaskServiceImpl();
     public static final UserService userService = new UserServiceImpl();
